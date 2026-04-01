@@ -9,25 +9,23 @@ export async function POST(req: Request) {
       headers: {
         "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost:3000", // REQUIRED
-        "X-Title": "AI Chatbot Project"          // REQUIRED
+        "HTTP-Referer": "https://ai-chatbot-v1.vercel.app", // your deployed URL
+        "X-Title": "AI Chatbot Project"
       },
       body: JSON.stringify({
-        model: "meta-llama/llama-3-8b-instruct",
+        model: "meta-llama/llama-3-8b-instruct", // ✅ WORKING MODEL
         messages: messages
-      })
+      }),
     });
 
     const data = await response.json();
 
-    // Debug log (optional)
-    console.log(data);
+    console.log("OPENROUTER RESPONSE:", data);
 
     return NextResponse.json(data);
 
   } catch (error) {
-    return NextResponse.json({
-      error: "Server error"
-    });
+    console.error("ERROR:", error);
+    return NextResponse.json({ error: "Server error" });
   }
 }
