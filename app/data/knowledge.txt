@@ -1,0 +1,45 @@
+Cloud computing provides on-demand access to computing resources over the internet.
+It offers scalability, flexibility, and cost efficiency without requiring physical hardware.
+AWS provides services like EC2 for compute, S3 for storage, and Lambda for serverless computing.
+Microsoft Azure and Google Cloud are other major cloud service providers.
+
+Virtualization allows multiple virtual machines to run on a single physical system.
+Containers are lightweight alternatives to virtual machines and are used in DevOps.
+Docker is a popular containerization platform, and Kubernetes is used for orchestration.
+
+DevOps combines development and operations to improve software delivery speed and reliability.
+CI/CD pipelines automate the process of building, testing, and deploying applications.
+
+Artificial Intelligence enables machines to perform tasks that typically require human intelligence.
+Machine Learning is a subset of AI that allows systems to learn from data.
+Deep Learning uses neural networks with multiple layers to model complex patterns.
+
+Natural Language Processing allows machines to understand and generate human language.
+Chatbots use NLP and Large Language Models to interact with users.
+
+A Large Language Model is trained on massive text data to generate human-like responses.
+Transformers are the core architecture behind modern AI models like GPT and LLaMA.
+
+Retrieval-Augmented Generation combines information retrieval with text generation.
+It allows systems to answer questions using external knowledge sources.
+
+Operating Systems manage hardware resources and provide services to applications.
+Process scheduling determines which process runs at a given time.
+Deadlock occurs when processes wait indefinitely for resources.
+
+Data structures like arrays, stacks, and queues are used to store and manage data efficiently.
+Algorithms define step-by-step procedures to solve problems.
+
+Networking enables communication between devices over a network.
+TCP/IP is the fundamental protocol used for internet communication.
+HTTP is used for web communication between client and server.
+
+Databases store and manage structured data.
+SQL is used to query relational databases like MySQL and PostgreSQL.
+NoSQL databases like MongoDB store unstructured data.
+
+Cybersecurity protects systems from attacks and unauthorized access.
+Encryption ensures secure communication by converting data into coded form.
+
+Software engineering involves designing, developing, testing, and maintaining software systems.
+Agile methodology focuses on iterative development and continuous feedback.
